@@ -1,0 +1,29 @@
+U-Uniform
+R-Resourse
+L-Locator
+URL is used to tell the browser to search something with the given address.
+It fetches data from where it is stored.
+
+GENERAL STRUCTURE:
+scheme://domain:port/path?query_string#fragment_id
+Eg for "scheme" is HTTPS,FTP.
+Domain is the name of the server or the machine.
+Eg : org,com
+Port is optional
+Default port is 80
+In a static webpage path is the place where it is stored or extension.
+The query string and fragment id are also optional
+
+Step1: Create a URL to fetch the data 
+Step2: Goes to the Domain mentioned in the URL and requests to get data
+Step3: The server checks the path mentioned in the URL and finds the data
+Step4: Server sends the data to the browser and the browser processes the data
+
+HTML contains the text contents of the data like Headers, Footers etc. It also contains any links we want
+If the browser needs any images or videos that are attched with the code it fetches it from the path given
+
+CSS is the stylesheet otherwise it can be used to describe the appearance of the website like colours positions and fonts
+
+Javascript file describes the behaviour of the webpage  after it is loaded like all the buttons and the actions to be executed 
+
+Finally the browser combines all the HTML,CSS,Javascript file and renders the final output of the website and also publish a object model
